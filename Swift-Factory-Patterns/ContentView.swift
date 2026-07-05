@@ -9,13 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                Section(header: Text("Creational Patterns")) {
+                    NavigationLink(destination: SimpleFactoryDemoView()) {
+                        Label("Simple Factory (Payments)", systemImage: "creditcard.fill")
+                    }
+
+                    NavigationLink(destination: FactoryMethodDemoView()) {
+                        Label("Factory Method (Notifications)", systemImage: "bell.badge.fill")
+                    }
+
+                    NavigationLink(destination: AbstractFactoryDemoView()) {
+                        Label("Abstract Factory (Environments)", systemImage: "flask.fill")
+                    }
+                }
+            }
+            .navigationTitle("Factory Patterns")
         }
-        .padding()
     }
 }
 

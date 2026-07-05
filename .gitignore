@@ -1,0 +1,48 @@
+# Xcode
+# ========================
+build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.sharedworkspace
+*.xcworkspace/xcuserdata/
+xcuserdata/
+SectionProperties.out
+KnownLocations
+_CodeSignature/
+#====== IMPORTANT SAFETY ======
+# Blocks local keys/certs if you add them later
+*.p11
+*.p12
+*.pfx
+*.pem
+*.jks
+*.der
+
+# Swift Package Manager
+# ========================
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods (If you ever use it, though not needed here)
+# ========================
+Pods/
+Podfile.lock
+
+# Fastlane (If used for deployment automation)
+# ========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Operating System Files
+# ========================
+.DS_Store
+Files.localized
+.LSOverride
+Icon?
+Thumbs.db

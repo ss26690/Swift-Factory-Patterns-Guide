@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		260501642FFAB45300D53A74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 260501632FFAB45300D53A74 /* README.md */; };
+		260501662FFAB46E00D53A74 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 260501652FFAB46E00D53A74 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		260501472FFAB41400D53A74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		260501392FFAB41300D53A74 /* Swift-Factory-Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Factory-Patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260501462FFAB41400D53A74 /* Swift-Factory-PatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Factory-PatternsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260501502FFAB41400D53A74 /* Swift-Factory-PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Factory-PatternsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260501632FFAB45300D53A74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		260501652FFAB46E00D53A74 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		260501302FFAB41300D53A74 = {
 			isa = PBXGroup;
 			children = (
+				260501652FFAB46E00D53A74 /* .gitignore */,
+				260501632FFAB45300D53A74 /* README.md */,
 				2605013B2FFAB41300D53A74 /* Swift-Factory-Patterns */,
 				260501492FFAB41400D53A74 /* Swift-Factory-PatternsTests */,
 				260501532FFAB41400D53A74 /* Swift-Factory-PatternsUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260501642FFAB45300D53A74 /* README.md in Resources */,
+				260501662FFAB46E00D53A74 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
