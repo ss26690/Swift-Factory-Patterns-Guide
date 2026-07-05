@@ -57,3 +57,5 @@ Swift-Factory-Patterns-Guide/
     ├── SimpleFactoryTests.swift
     ├── FactoryMethodTests.swift
     └── AbstractFactoryTests.swift
+
+
